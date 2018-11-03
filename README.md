@@ -36,6 +36,9 @@ In the sourcecode I have currently set static to trigger at an LoadCell Value ov
   if (i<-20) {
 ```
 
+### trigger
+In the source code, I also set the onboard LED, so you can check visual if your LoadCell reach the force.
+
 ## what you need
 
 1. LoadCell (I have just take a 5kg one) (~2€)
@@ -60,5 +63,3 @@ HX711 (VCC) <--> arduino VCC
 HX711 (DT)  <--> arduino PIN 3
 HX711 (SCK) <--> arduino PIN 2
 ```
-
-Pin 4 should trigger the onboard LED on the arduino, so you can visual check if the sensor get triggered.
